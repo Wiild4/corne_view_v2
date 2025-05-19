@@ -34,7 +34,7 @@
 // |  Q  |  W  |  E  |  R  |  T  |     |  Y  |  U   |  I   |  O   | P |
 // |  A  |  S  |  D  |  F  |  G  |     |  H  |  J   |  K   |  L   | ' | 
 // |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   | CTRL | META | . |
-//             | GUI | LWR | SPC |     | ENT | RSE  | BSPC |
+//             | GUI | LWR | ENT |     | SPC | RSE  | BSPC |
                         display-name = "Base";
                         bindings = <
    AS(Q) AS(W) AS(E) AS(R) AS(T)     AS(Y)   AS(U)  AS(I)     AS(O)     AS(P)
@@ -49,7 +49,7 @@
 // | !     |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  (  |  )  |
 // | BT1   | BT2 | BT3 | BT4 | BT5 |     | LFT | DWN |  UP | RGT |     |
 // | BTCLR |     |     |     |     |     |     |     |     |     |     |
-//               | GUI |     | SPC |     | ENT | ESC | TAB |
+//               | GUI |     | ENT |     | SPC | ESC | TAB |
                         display-name = "Lower";
                         bindings = <
    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT        &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR
@@ -64,7 +64,7 @@
 // | 1! |  2@ |  3# |  4$ |  5% |     |  6^ |  7& |  8* |  9(  |  0)  |
 // | -_ |  =+ |  {  |  [  |  (  |     |  )  |  ]  |  }  |  /?  |  \|  |
 // | `~ |     |     |  ,< |  :  |     |  ;  |  .> | CTRL| META |      |
-//            | GUI | ESC | SPC |     | ENT |     | TAB |
+//            | GUI | ESC | ENT |     | SPC |     | TAB |
                         display-name = "Raise";
                         bindings = <
 
